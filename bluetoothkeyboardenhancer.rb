@@ -2,7 +2,7 @@ class Bluetoothkeyboardenhancer < Formula
   desc "Enables the corner home button on an iOS keyboard to function as an escape key"
   homepage "https://github.com/dnicolson/BluetoothKeyboardEnhancer"
   url "https://github.com/dnicolson/BluetoothKeyboardEnhancer/archive/v0.4.0.zip"
-  sha256 "708201aaafb8e2869617d8fac0c4d739a6b40437a659491019df57436c880394"
+  sha256 "b024791dbb18f738f3401e6619a53d41bd4ac02c2df16420c8d420f32c136494"
 
   def install
     system "clang -framework IOKit -framework Carbon BluetoothKeyboardEnhancer.c -o bke"
